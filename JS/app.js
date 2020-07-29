@@ -38,11 +38,11 @@ if(gamePlay){  //Untill the value of the var gamePlay is true the game is still 
 
   var diceDOM =  document.querySelector('.dice');   // Store in the var 'diceDOM' the  selector for the class dice (image).
   diceDOM.style.display = 'block';                  // remove the hide attribute given before, to make the img visible.
-  diceDOM.src = 'dice-' + dice + '.png';            // select the right image in base of the Output of 'dice'.
+  diceDOM.src = 'Images/dice-' + dice + '.png';            // select the right image in base of the Output of 'dice'.
 
   var diceDOM1 =  document.querySelector('.dice1'); // The same operation, only for the second dice.
   diceDOM1.style.display = 'block'; 
-  diceDOM1.src = 'dice-' + dice1 + '.png';
+  diceDOM1.src = 'Images/dice-' + dice1 + '.png';
   console.log(dice);
 
   //3. Update the round score IF the rolled number was NOT a '1'
